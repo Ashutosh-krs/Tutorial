@@ -24,6 +24,7 @@
   .form-box{
 	margin-top: 10%;
 	margin-right: 10%;
+	width: 100vw;
   }
   
   .form-group {
@@ -74,16 +75,4 @@
 	overflow: auto;
   }
   
-  btn-submit {
-	display: block;
-	width: 100%;
-	padding: 10px;
-	margin-top: 20px;
-	background-color: #2ecc71;
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	font-size: 28px;
-	cursor: pointer;
-  }
   

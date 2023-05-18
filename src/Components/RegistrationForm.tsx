@@ -26,7 +26,7 @@ const RegistrationForm = () => {
       <Navbar />
       <div className="bg-1">
         <div className="bg-2">
-          <form onSubmit={handleSubmit} className="form-container">
+          <form onSubmit={handleSubmit} className="registration-form-container">
             <h2>Register Now!</h2>
             <div className="form-group">
               <label htmlFor="name">Name:</label>

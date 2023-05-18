@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import "./forget.css";
+import Footer from "./Footer";
 
 const ForgotPassword = () => {
   const [username, setUsername] = useState("");
@@ -49,6 +50,7 @@ const ForgotPassword = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

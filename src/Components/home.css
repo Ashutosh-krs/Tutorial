@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 100px); /* 100px is the height of the Navbar and Footer */
   
 }
 
@@ -58,4 +57,13 @@
   background: #ff8c00;
 }
 
+/* Add this CSS code to your component or a CSS file */
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.10);
+}
 

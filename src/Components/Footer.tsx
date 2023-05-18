@@ -21,29 +21,21 @@ const Footer = () => {
                   Home
                 </a>
               </li>
-              <li></li>
-              <li></li>
-              <li></li>
               <li>
                 <a href="/about" style={{ color: "white" }}>
                   About
                 </a>
               </li>
-            </ul>
-            <ul className="footer-links">
               <li>
                 <a href="/destinations" style={{ color: "white" }}>
                   Destinations
                 </a>
               </li>
-              <li></li>
               <li>
                 <a href="/contact" style={{ color: "white" }}>
                   Contact
                 </a>
               </li>
-            </ul>
-            <ul className="footer-links">
               <li>
                 <a href="/terms" style={{ color: "white" }}>
                   Terms of Service

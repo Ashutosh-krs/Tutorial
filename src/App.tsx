@@ -8,13 +8,12 @@ import ForgotPassword from "./Components/ForgetPassword";
 import Login from "./Components/Login";
 import LoginAdmin from "./Components/LoginAdmin";
 import TrainDetails from "./Components/TrainDetails";
-import Footer from "./Components/Footer";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Footer />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/user-login" element={<Login />}></Route>
         <Route path="/admin-login" element={<LoginAdmin />}></Route>
         <Route path="/registration" element={<RegistrationForm />}></Route>

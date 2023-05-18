@@ -45,3 +45,50 @@ a {
 a:hover {
   color: #0077ff;
 }
+
+
+/* Navbar.css */
+
+.nav-item-dropdown {
+  position: relative;
+}
+
+.nav-item-dropdown .dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+}
+
+.nav-item-dropdown .dropdown-menu.show {
+  display: block;
+}
+
+.nav-item-dropdown .dropdown-menu .dropdown-item {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item-dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #f8f8f8;
+}
+
+.nav-item-dropdown .dropdown-menu .dropdown-item:last-child {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.nav-item-dropdown .dropdown-menu .dropdown-item:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
